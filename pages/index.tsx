@@ -1,4 +1,6 @@
+import Layout from '../components/Layout'
+
 const Home: React.FC = () => {
-  return <div className="text-red-600">Hello Next.js</div>
+  return <Layout title={''}></Layout>
 }
 export default Home
